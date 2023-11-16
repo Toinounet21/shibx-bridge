@@ -11,6 +11,7 @@ import {
 
 import { wagmi } from "./config/wagmi";
 import { testnet } from "./config/testnet";
+import { mainnet } from "./config/mainnet";
 import { ConnectButton, RainbowKitProvider } from "@rainbow-me/rainbowkit";
 
 import "./styles/reset.css";
@@ -20,7 +21,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { WagmiConfig } from "wagmi";
 
 // boostrap the bridge
-bootstrap(testnet, {
+bootstrap(mainnet, {
   evm: wagmi.wagmiAdapter,
 });
 
