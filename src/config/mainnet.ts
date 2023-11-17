@@ -2,14 +2,14 @@ import {ChainId} from '@layerzerolabs/lz-sdk';
 import {Token} from 'x-shibx-bridge';
 
 const tokens = [
-  new Token(ChainId.ARBITRUM, '0x7f4dB37D7bEb31F445307782Bc3Da0F18dF13696', 18, 'SHIBX'),
-  new Token(ChainId.AVALANCHE, '0x59414b3089ce2AF0010e7523Dea7E2b35d776ec7', 18, 'SHIBX'),
+  new Token(ChainId.ARBITRUM, '0x440aBbf18c54b2782A4917b80a1746d3A2c2Cce1', 18, 'SHIBX'),
+  new Token(ChainId.AVALANCHE, '0x440aBbf18c54b2782A4917b80a1746d3A2c2Cce1', 18, 'SHIBX'),
 ];
 
 const proxy = [
   {
     chainId: ChainId.AVALANCHE,
-    address: '0x656D33bfB74863E7aB1F5496a7a86a717A18a8D9',
+    address: '0x2f05FB1519f05651078Ba35D792a9A64DEE17345',
   },
 ];
 
